@@ -1,0 +1,234 @@
+html {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+/* color scheme*/
+.extra{
+    color: #F45050;
+    color: #F0F0F0;
+    color: #3C486B;
+    color: #F9D949;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #F0F0F0;
+}
+body a:active, a:visited, a:link{
+    color: #F9D949;
+    text-decoration: none;
+  }
+/* Header */
+.header-container {
+    display:grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: #3C486B;
+    color: #F9D949;
+    text-align: center;
+}
+
+.header-title {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.header-login {
+    grid-column: 7/8;
+    grid-row: 1/2;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 2rem;
+}
+/* Signup Page*/
+.signinSignupTitle {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.signup-container{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: auto auto auto;
+  
+    height: 750px;
+}
+
+.signup-form{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.signup-form input{
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.btnSubmit {
+    display:grid;
+    justify-content: center;
+    
+}
+
+/* Main */
+.main-container {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    padding: 30px 0 30px 0;   
+}
+/*First Section*/
+.section-first {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #3C486B;
+    height: 560px;
+    width: 1200px;
+    border-radius: 25px;
+}
+
+.section-first img {
+    display:grid;
+    justify-content: right;
+    align-content: center;
+    height: 500px;
+    margin: 30px 0 30px 30px;
+    border-radius: 25px;
+}
+.side-first {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #949494;
+    height: 500px;
+    width: 500px;
+    margin: 30px 30px 30px 30px;
+    border-radius: 25px;
+}
+.side-text{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color:#F9D949;
+    padding: 30px;
+}
+/*Second Section*/
+.section-second {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #3C486B;
+    height: 560px;
+    width: 1200px;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.section-second img{
+    display:grid;
+    justify-content: right;
+    align-content: center;
+    height: 500px;
+    width: 700px;
+    margin: 30px 30px 30px 0;
+    border-radius: 25px;
+}
+.side-second {
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #949494;
+    height: 500px;
+    width: 400px;
+    
+    margin: 30px 30px 30px 30px;
+    border-radius: 25px;
+}
+.side-text2{
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color:#F9D949;
+    padding: 30px;
+}
+
+/* Footer */
+
+footer {
+    font-size: 2rem;
+    color: #F45050;   
+}
+
+.footer-container{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: .5fr .25fr .5fr 1fr;
+    background-color: #3C486B;
+    font-weight: bold;
+    gap: 5px;
+    width: 100%;
+}
+.footer-contact {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.footer-about {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.footer-faq {
+    grid-column: 6/7;
+    grid-row: 1/2;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.footer-social {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.footer-icon1 {
+    display:inline-block;
+    grid-column: 3/4;
+    grid-row: 4/5;
+    display:grid;
+    justify-content: right;
+    align-content: center;
+}
+.footer-icon2 {
+    display:inline-block;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+}
+.footer-icon3 {
+    display:inline-block;
+    grid-column: 5/6;
+    grid-row: 4/5;
+    display:grid;
+    justify-content: left;
+    align-content: center;
+}
