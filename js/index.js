@@ -39,3 +39,23 @@ class footer extends HTMLElement {
 }
 
 customElements.define('page-footer', footer)
+
+const signup = document.getElementById('signup');
+const signin = document.getElementById('signin');
+const formSignup = document.getElementById('formSignup');
+const formSignin = document.getElementById('formSignin');
+
+// Add event listeners to the links
+signup.addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent the link from navigating
+
+  formSignup.style.display = 'block'; 
+  formSignin.style.display = 'none'; 
+});
+
+signin.addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent the link from navigating
+
+  formSignin.style.display = 'block'; // Hide form 1
+  formSignup.style.display = 'none'; // Show form 2
+});
